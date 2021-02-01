@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebRTC Exercise</title>
+</head>
+
+<body>
+<div class="controls-wrapper">
+    <div class="controls-inside-wrapper">
+        <input id="callButton" type="button" disabled value="Video Call"/>
+        <input id="endButton" type="button" disabled value="End Call"/>
+    </div>
+</div>
+<!--<div id="video-wrapper">-->
+<!--</div>-->
+
+
+<div class="video-wrapper">
+    <div class="box box1">
+        <video id="remoteVideo" autoplay muted playsinline></video>
+    </div>
+    <div class="box box2">
+        <video id="localVideo" autoplay muted playsinline></video>
+    </div>
+</div>
+
+<!--<script>window.addEventListener("load", pageReady);</script>-->
+<script src="main.js"></script>
+
+</body>
+</html>
